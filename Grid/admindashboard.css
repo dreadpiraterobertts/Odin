@@ -173,7 +173,7 @@ section{
 .ann-container{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 5px;
+    padding: 20px;
     box-shadow: 1px 1px 5px 1px grey;
 }
 .ann-container>div{
@@ -183,6 +183,7 @@ section{
     box-shadow: 1px 1px 5px 1px grey;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
+    padding: 20px;
 }
 .tren-container>div{
     height: 60px;
