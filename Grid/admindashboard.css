@@ -1,0 +1,196 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+aside{
+    background-color: rgb(112, 100, 223);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    gap: 50px;
+    padding: 20px;
+}
+.options,
+.sec-options{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.logo{
+    display: flex;
+}
+.icon{
+    height: 50px;
+    fill: white;
+}
+p::selection{
+    background-color: rgb(255, 196, 0);
+}
+li{
+    list-style-type: none;
+    display: flex;
+    gap:10px;
+    cursor: pointer;
+}
+li>img{
+    height: 20px;
+    fill: antiquewhite;
+}
+main{
+    display: grid;
+    grid-template-rows: 0.5fr 4fr;
+}
+header{
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+    padding: 10px;
+}
+.upper-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.header-right>p{
+    font-weight: 700;
+}
+input{
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+}
+header>div>div>img{
+    height: 20px;
+}
+.profile{
+    border-radius:100%;
+    height: 30px;
+}
+.lower-header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.right,
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+button{
+    border: none;
+    background-color: rgb(112, 100, 223);
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80px;
+}
+section{
+    display: flex;
+    gap: 5px;
+    background-color: rgb(182, 177, 177);
+}
+.left-main{
+    width: 70%;
+    padding: 10px;
+}
+.container{
+    display: grid;
+    gap:15px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 180px 180px 180px;
+}
+.container>div{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 8px;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+.yel{
+    background-color: rgb(209, 209, 9);
+    width: 3%;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.white{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.white>div{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.white>div>img{
+    height: 20px;
+}
+.right-main{
+    width: 30%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap:5px;
+}
+.announcement{
+    height: 50%;
+    padding: 10px;
+    font-size: small;
+    text-align: left;
+}
+.trending{
+    height: 50%;
+    padding: 10px;
+    font-size: small;
+    text-align: left;
+}
+.ann-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+.ann-container>div{
+    height: 60px;
+}
+.tren-container{
+    box-shadow: 1px 1px 5px 1px grey;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.tren-container>div{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap:15px;
+}
+em{
+    font-weight: 600;
+}
